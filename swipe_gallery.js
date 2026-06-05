@@ -226,6 +226,10 @@
         animation-play-state: paused !important;
         transform: scale(1.08) !important;
       }
+      #reveal_40 {
+        transform-origin: center center !important;
+        animation: pulsate 1.8s ease-in-out infinite !important;
+      }
 
       @keyframes pulsate {
         0%, 100% {
@@ -399,7 +403,7 @@
         if (learnMore) {
           learnMore.style.position = 'absolute';
           learnMore.style.left = '80px';
-          learnMore.style.top = '430px';
+          learnMore.style.top = '450px';
           learnMore.style.width = '160px';
           learnMore.style.height = '37px';
           learnMore.style.zIndex = '100';
