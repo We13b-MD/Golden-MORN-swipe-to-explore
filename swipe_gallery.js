@@ -379,7 +379,7 @@
         if (finalPack) {
           finalPack.style.position = 'absolute';
           finalPack.style.left = '56px';
-          finalPack.style.top = '203px';
+          finalPack.style.top = '218px';
           finalPack.style.zIndex = '100'; // Enforce on top of Reveal_Page background
           finalPack.style.transformOrigin = 'center bottom';
           finalPack.style.opacity = '0';
