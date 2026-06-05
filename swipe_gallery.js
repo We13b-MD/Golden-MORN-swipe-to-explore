@@ -397,6 +397,12 @@
         // 3. Fade in Learn More button beautifully
         const learnMore = document.getElementById('learn_more');
         if (learnMore) {
+          learnMore.style.position = 'absolute';
+          learnMore.style.left = '80px';
+          learnMore.style.top = '430px';
+          learnMore.style.width = '160px';
+          learnMore.style.height = '37px';
+          learnMore.style.zIndex = '100';
           learnMore.classList.remove('btn-reveal');
           learnMore.offsetHeight; // force reflow
           learnMore.classList.add('btn-reveal');
